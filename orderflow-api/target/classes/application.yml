@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: orderflow-api
+  datasource:
+    url: jdbc:postgresql://localhost:5432/orderflow
+    username: orderflow
+    password: orderflow
+  jpa:
+    hibernate:
+      ddl-auto: validate   # Flyway creates tables; Hibernate only checks them
+    open-in-view: false
+    show-sql: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
