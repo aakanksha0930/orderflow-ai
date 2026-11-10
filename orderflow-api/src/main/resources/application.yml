@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/orderflow
     username: orderflow
-    password: orderflow
+    password: 1234
   jpa:
     hibernate:
       ddl-auto: validate   # Flyway creates tables; Hibernate only checks them
