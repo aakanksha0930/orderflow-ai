@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OrderflowApiApplication",
+            "request": "launch",
+            "mainClass": "com.orderflow.OrderflowApiApplication",
+            "projectName": "orderflow-api"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-OrderflowApiApplication<orderflow-api>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
